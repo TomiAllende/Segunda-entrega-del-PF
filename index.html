@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackmarket</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<!--Armo navbar con bootstrap-->
+
+<body class="Main">
+  <header>
+    <nav class="navbar navbar-expand-lg d-flex p-0 fixed-right">
+      <div class="container-fluid">
+        <img src="../img/BlackMa.jfif" alt="Logo de Black Market" width="200" height="200">
+        <a class="navbar-brand nav-link p-9 fw-bold fs-3 transicion" href="../index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar- nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link p-9 fw-bold fs-3 transicion" aria-current="page"
+                href="pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx p-9 fw-bold fs-3 transicion" href="pages/carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  p-9 fw-bold fs-3 transicion" href="#" id="navbarDropdownMenuLink"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Otros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item p-2 fw-bold fs-3 transicion" href="pages/galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item p-2 fw-bold fs-3 transicion" href="pages/Contacto.html">Contacto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <!--Realizo anuncio con box model-->
+
+
+    <main>
+      <h2 class="anuncio">Realiza tu pedido con productos de calidad y al mejor precio
+      </h2>
+      <br>
+    </main>
+
+    <!--Armo mis imagenes con grid areas-->
+
+    <div class="PadreGrid">
+      <div class="cajaimg">
+        <a href="./pages/servicios.html"><img class="pizzamedia" src="./img/pizza.jpeg" alt="pizza" width="700"
+            height="500">
+      </div>
+
+      <section class="empaindex">
+        <a href="./pages/servicios.html"><img class="empanadamedia" src="./img/pexels-kent-ng-5881015.jpg" alt="empas"
+            width="700" height="500">
+      </section>
+
+      <nav class="cerveindex">
+        <a href="./pages/servicios.html"><img class="cervezamedia" src="./img/birrovich.webp" alt="birrovich"
+            width="1600" height="700">
+      </nav>
+    </div>
+    
+    <!--Inicio de Footer-->
+    
+    <footer class="footer">
+      <h3>Web Creada por Tomas Allende</h3>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
